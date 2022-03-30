@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body class="fondo">
+    <div class="">
+        <div data-poke-card class="poke-card contenedorrojo inline clearfix">
+            <img class="luzVerde" src="./img/luzVerde.gif" alt="">
+            <img class="rgb" src="./img/rgb.jpg" alt="">
+            <div data-poke-name class="pokename contenedorname ">???????</div> 
+            <div data-poke-img-container class="img-container ">
+                <img data-poke-img class="poke-img" src="./img/quienesPokemon.gif"/>
+            </div>
+            
+            <img class="imgcruz" src="./img/cruz.jpg" alt="">
+            <img class="bNegro" src="./img/boton negro.png" alt="">
+            <img class="bAzul" src="./img/boton azul.png" alt="">
+            <img class="bRosa" src="./img/botonrosa.png" alt="">
+        </div>
+        <div class="contenedorrojo2 inline clearfix">
+            <form action="" onsubmit="buscarPokemon(event)">
+                <input type="text" name="pokemon" autocomplete="off">
+            </form>
+            <div class="contenedorstatus">
+                <div data-poke-id></div> <br>
+                <div data-poke-tipo class="poke-tipo"></div><br>
+                <div data-poke-stats class="poke-stats"></div>
+            </div>
+             <div data-poke-movimientos class="movimientos">Poke-movimientos:</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

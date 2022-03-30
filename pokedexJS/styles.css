@@ -1,0 +1,196 @@
+.fondo{
+    background-image: url(./img/fondo.jpg);
+}
+
+form {
+    width: 150px;
+    margin: 0px;
+}
+
+input {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    float: left; 
+
+}
+
+.img-container {
+    position: relative;
+    width: 400px;
+    margin: 15px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.poke-tipo div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.poke-img {
+    margin-top: opx;
+    width: 300px;
+    height: 200px;
+    border: 50px solid rgb(221, 229, 230);
+    box-shadow:0px 0px 30px rgba(21, 21, 22, 0.89);
+    border-radius: 0px 0px 0px 50px;
+    display: flex;
+}
+
+.luzVerde{
+    margin-top: 30px;
+    margin-left: 30px;
+    filter: brightness(.9);
+    mix-blend-mode: multiply;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    float: left;
+}
+
+.rgb{
+    margin-right: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    float: right;
+}
+
+.imgcruz{
+    margin-top: 50px;
+    margin-right: 50px;
+    filter: brightness(1.2);
+    mix-blend-mode: multiply;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    float: right;
+    
+}
+
+.bNegro{
+    margin-top: 30px;
+    margin-left: 100px;
+    filter: brightness(1.5);
+    mix-blend-mode: multiply;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    float: left;
+}
+.bRosa{
+    margin-right: 50px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    float: right;
+}
+
+.bAzul{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.contenedorrojo{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 600px;
+    height: 800px;
+    border-radius: 50px 0 0 50px;
+    box-shadow:0px 0px 30px rgba(21, 21, 22, 0.89);
+    border: 3px solid black;
+    background-color: rgb(172, 40, 40);
+    display: flex;
+
+}
+.contenedorrojo2{
+    width: 600px;
+    height: 600px;
+    border-radius: 0px 0 50px 0;
+    box-shadow:0px 0px 30px rgba(21, 21, 22, 0.89);
+    border: 3px solid black;
+    background-color: rgb(172, 40, 40);
+    display: flex;
+    overflow: auto;
+    text-align: center;
+}
+
+.contenedorstatus{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left:50px;
+    margin-top: 90px;
+    width: 500px;
+    height: 300px;
+    box-shadow:0px 0px 30px rgba(21, 21, 22, 0.89);
+    border: 3px solid rgb(47, 161, 2);
+    background-color: rgb(184, 235, 182);
+    display: flex;
+    display:block;
+    text-align: center;
+    overflow: scroll;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.699);
+}
+
+.inline
+{
+  display: inline-block;/*inline-block: se utiliza para hacer menus de navegacion y se le puede poner height y width*/
+  
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+.contenedorname{
+    margin-top: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 400px;
+    height: 30px;
+    box-shadow:0px 0px 30px rgba(21, 21, 22, 0.89);
+    background-color: white;
+    border: 1px solid black;
+    float: right;
+    text-align: center;
+}
+ 
+.movimientos{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 400px;
+    height: 90px;
+    text-align: center;
+    box-shadow:0px 0px 30px rgba(21, 21, 22, 0.89);
+    border: 3px solid rgb(47, 161, 2);
+    background-color: rgb(184, 235, 182);
+    overflow: scroll;
+}
